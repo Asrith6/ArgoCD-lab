@@ -609,3 +609,4 @@ You never ran `kubectl apply` for any of it. **That is GitOps.**
 ---
 
 
+# ArgoCD-lab
