@@ -6,8 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    # Replace with your public GitHub repo URL
-    repoURL: https://github.com/<you>/<repo>.git
+    repoURL: https://github.com/Asrith6/ArgoCD-lab.git
     targetRevision: main
     path: k8s
   destination:
@@ -19,3 +18,4 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+
